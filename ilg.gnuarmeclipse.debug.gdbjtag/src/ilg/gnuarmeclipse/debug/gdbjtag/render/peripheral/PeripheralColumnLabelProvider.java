@@ -221,6 +221,7 @@ public class PeripheralColumnLabelProvider extends ColumnLabelProvider
 				} catch (DebugException e) {
 				}
 
+				//$FALL-THROUGH$
 			case ADDRESS:
 				return treeNode.getDisplayAddress();
 
