@@ -441,7 +441,7 @@ public class DefaultPreferences {
 
 			Properties prop = new Properties();
 			prop.load(is);
-
+			is.close();
 			fgToolchainProperties = prop;
 		}
 
